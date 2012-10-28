@@ -126,7 +126,7 @@ ul{
 
 .button {
 	float:right;
-	width:233px;
+	width:310px;
 	height:65px;
 	font-size: 28px;
 	font-family: 'lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';;
@@ -165,7 +165,7 @@ ul{
 
 .button:hover {
 	float:right;
-	width:233px;
+	width:310px;
 	height:65px;
 	font-size: 28px;
 	font-family: 'lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';;
@@ -202,26 +202,6 @@ ul{
 		0px 1px 0px rgba(255,255,255,0.3);
 }
 
-/*input{
-	float:right;
-	border:none;
-	width:233px;
-	height:67px;
-	text-align:center;
-	font-weight:bold;
-	color:#fff;	
-	font-size:30px;
-	cursor:pointer;	
-	clear:both;
-	margin-top:20px;
-	margin-right:10px;
-	background:	url(../images/apply_btn.png) 0 4px no-repeat;
-}*/
-
-.apply input:hover{
-	background:url(../images/apply_btn.png) left bottom no-repeat;
-}
-
 #main_nav_cont{
 	width:100%;
 	height:72px;
@@ -229,7 +209,7 @@ ul{
 }
 
 #nav_cont{
-	width:880px;
+	width:950px;
 	height:84px;
 	margin:0px auto;
 }
@@ -540,6 +520,11 @@ img.advisoricons{
 .span4 {
   width: 250px;
   text-align: center;
+}
+
+.span5 {
+  width: 400px;
+  text-align: right;
 }
 
 [class*="span"] {
