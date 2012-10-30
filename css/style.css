@@ -13,6 +13,14 @@ a {
 	font-weight: bold;
 }
 
+.accelimages{
+	width:350px;
+	float:left;	
+	font-size:18px;
+	height:auto;
+	color:#5d5d5c;
+}
+
 a:hover {
 	text-decoration: underline;
 }
@@ -525,6 +533,11 @@ img.advisoricons{
 .span5 {
   width: 400px;
   text-align: right;
+}
+
+.span6 {
+  width: 500px;
+  text-align: center;
 }
 
 [class*="span"] {
