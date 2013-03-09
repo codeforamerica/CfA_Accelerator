@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 	$("#application").hide(); 
 
-	$(".Apply.button").live( 'click', function() {
+	$(".Apply .button").live( 'click', function() {
 		show_application();
 		window.location.hash = '#application';
 		
