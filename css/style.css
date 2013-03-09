@@ -1376,7 +1376,7 @@ line-height: 66px;
 	cursor: pointer;
 }
 #application {
-	height: auto;
+	height: 2500px;
 	overflow: hidden;
 }
 
