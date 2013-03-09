@@ -134,7 +134,7 @@ ul{
 
 .button {
 	float:right;
-	width:310px;
+	width:240px;
 	height:65px;
 	font-size: 28px;
 	font-family: 'lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';;
@@ -173,7 +173,7 @@ ul{
 
 .button:hover {
 	float:right;
-	width:310px;
+	width:240px;
 	height:65px;
 	font-size: 28px;
 	font-family: 'lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';;
@@ -274,6 +274,14 @@ ul{
 	padding:0px 10px;
 	line-height: 26px;
 }
+.main_conta{
+	width:650px;
+	height:auto;
+	float:none;	
+	padding:0px 10px;
+	line-height: 26px;
+	text-align: center;
+}
 
 .cufon_head{
 	font-size:70px;
@@ -295,6 +303,7 @@ ul{
 	width:470px;
 	font-weight:normal;
 	color:#5d5d5c;	
+	margin-bottom: 25px;
 }
 
 .spend_cont{
@@ -310,6 +319,22 @@ ul{
 	height:63px;
 	color:#63c6d3;
 	border-bottom:1px solid #afafb2;	
+}
+.spend_topleft{
+	float: left;
+	font-size: 9px;
+	padding-top: 30px;
+	font-style: italic;
+}
+
+.spend_topleft a {
+	color: #5d5d5c;
+
+}
+
+.imgclass{
+	padding-right: 2px;
+	padding-left: 3px;
 }
 
 .spend_middle{
@@ -379,7 +404,7 @@ ul{
 	width:100%;
 	height:60px;
 	background:url(../images/finishing_line.jpg) center no-repeat;
-	margin:24px 0px 15px;	
+	margin:0px 0px 15px;	
 }
 
 .program_cont ul{
@@ -484,6 +509,14 @@ img.advisoricons{
 
 #sponsors{
 	padding: 30px 10px 75px 10px;
+	margin: 0 auto;
+}
+
+#sponsors img {
+	float: left;
+	padding: 10px 25px;
+	margin-left: auto;  
+	margin-right: auto;
 }
 
 #footer_cont{
